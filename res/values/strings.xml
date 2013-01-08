@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">VOA慢速英语词典</string>
+    <string name="menu_about">关于</string>
+    <string name="about_content">VOA慢速英语词典-掌握慢速英语常用1500基础单词的好帮手\n版本号：1.0\n开发者：乐学工作室</string>
+    <string name="title_activity_main">VOA慢速英语词典</string>
+    <string name="word_hint">请输入的单词</string>
+    <string name="deleteall">全删</string>
+    <string name="voice_search">语音搜索</string>
+    <string name="placeholder"> </string>
+    <string name="sample">例子</string>
+    <string name="input_english">请输入英文单词</string>
+    <string-array name="dictthumb">
+        <item >A</item>
+        <item >B</item>
+        <item >C</item>
+        <item >D</item>
+        <item >E</item>
+        <item >F</item>
+        <item >G</item>
+        <item >H</item>
+        <item >I</item>
+        <item >J</item>
+        <item >K</item>
+        <item >L</item>
+        <item >M</item>
+        <item >N</item>
+        <item >O</item>
+        <item >P</item>
+        <item >Q</item>
+        <item >R</item>
+        <item >S</item>
+        <item >T</item>
+        <item >U</item>
+        <item >V</item>
+        <item >W</item>
+        <item >X</item>
+        <item >Y</item>
+        <item >Z</item>
+        <item >#</item>
+    </string-array>
+    
+</resources>

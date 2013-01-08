@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inputFontSize">20sp</dimen>
+    <dimen name="hintFontSize">20sp</dimen>
+    
+    <dimen name="editTextHeight">48dp</dimen>
+    <dimen name="voiceButtonHeight">48dp</dimen>
+    <dimen name="voiceButtonWidth">48dp</dimen>
+    <dimen name="wordItemHeight">48dp</dimen>
+    <dimen name="wordItemWordFontSize">38sp</dimen>
+    
+    <dimen name="DetailWordFontSize">38sp</dimen>
+    <dimen name="DetailMeansFontSize">26sp</dimen>
+    <dimen name="DetailSampleFontSize">20sp</dimen>
+    
+</resources>

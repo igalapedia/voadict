@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/background"
+    android:padding="3dp"
+    >
+        
+    <RelativeLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <EditText
+            android:id="@+id/editTextWord"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/editTextHeight"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_edit"
+            android:drawableLeft="@drawable/ic_btn_search"
+            android:ems="10"
+            android:hint="@string/word_hint"
+            android:inputType="textNoSuggestions"
+            android:digits="abcdefghigklmnopqrstuvwxyz"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColorHint="@color/hint"
+            android:textSize="@dimen/inputFontSize"
+            android:gravity="center_vertical"
+             />
+
+        <ImageView
+            android:id="@+id/clear_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/editTextWord"
+            android:layout_marginRight="5dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/deleteall"
+            android:src="@drawable/ic_clear"
+            android:visibility="gone" />
+       
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/listViewWords"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:footerDividersEnabled="true"
+            android:focusable="false"
+            android:cacheColorHint="#00000000"
+            android:background="@drawable/bg_edit"
+            android:drawSelectorOnTop="false"
+            android:scrollbars="none"
+            android:layout_alignParentLeft="true"
+            >
+        </ListView>
+
+        <com.ljb.voadict.DictSeekBar
+            android:id="@+id/seekBarDict"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" >
+    <color name="word">#008B8B</color>
+    <color name="mean">#000000</color>
+    <color name="sample">#A9A9A9</color>
+    <color name="background">#FFFFF0</color>
+    <color name="hint">#A9A9A9</color>
+    <color name="title">#F5FFFA</color>
+    <color name="seeklable">#8B008B</color>
+    <color name="seekthumb">#00000000</color>
+</resources>

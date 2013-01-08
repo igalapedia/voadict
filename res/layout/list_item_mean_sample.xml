@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical" >
+
+    <TextView
+        android:id="@+id/textSample"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:text="@string/placeholder"
+        android:textColor="@color/sample"
+        android:textSize="@dimen/DetailSampleFontSize"
+        android:textStyle="italic" />
+
+</RelativeLayout>
