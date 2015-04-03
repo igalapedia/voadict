@@ -1,0 +1,1 @@
+a simple dictionary for voa special english 1500 words running on android
